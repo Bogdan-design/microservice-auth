@@ -19,7 +19,7 @@ export const CardWrapper = ({
                                 headerLabel,showSocial
 }:CardWrapperProps) => {
     return (
-        <Card className=''>
+        <Card className='w-[400px] shadow-md'>
             {children}
         </Card>
     );
