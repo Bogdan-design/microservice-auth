@@ -3,6 +3,7 @@
 import React, {ReactNode} from 'react';
 import {Card, CardContent, CardFooter, CardHeader} from "@/components/ui/card";
 import {Header} from "@/components/auth/header";
+import {Social} from "@/components/auth/social";
 
 type CardWrapperProps = {
     children: ReactNode
